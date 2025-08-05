@@ -12,7 +12,6 @@ class Solution {
                 else{
                     answer[start] = answer[start-1]-1;
                 }
-                
                 start = start+1;
                 end = start+1;
             }
